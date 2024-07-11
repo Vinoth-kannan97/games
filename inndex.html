@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <link rel="stylesheet" href="./stile.css">
+    <link rel="shortcut icon" href="./1.jpg" type="image/x-icon">
+</head>
+<body>
+    <div id="main">
+       <h1>Number Gussing Gamrs 🎮</h1> 
+       <h2>Rules:</h2>
+       <div id="rules">
+            <li>Select a number for 1 to 100</li>
+            <li>Click on the  check button</li>
+            <li>It will give a hint to guess the number correctly</li>
+            <li>Repeat the same step until you find this number</li>
+
+       </div><br>
+        <input type="number" name="number" id="n1" placeholder="Enter The Number">
+        <h2 id="result">Wait for the result..... ❤️</h2>
+        <h2 id="count">0</h2>
+        <div id="button">
+            <button type="submit" onclick="findnum()" id="c">Ckeck</button>
+            <button type="submit" onclick="window.location.reload()" id="r">Reset</button>
+        </div>
+
+    </div>
+    <script src="./ind.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+body{
+    background-image: url(./main.jpg);
+    background-size: cover;
+
+}
+#main{
+    height: 490px;
+    width: 500px;
+    border: 3px solid red ;
+    margin: auto;
+    margin-top: 110px;
+    border-color: rgb(0, 0, 0) rgb(0, 0, 0);
+
+    box-shadow: 1px 1px 1px 3px white;
+    border-radius: 5%;
+    text-align: center;
+}
+#rules{
+    text-align: justify;
+    margin-left: 110px;
+    font-size: 18px;
+}
+#n1{
+    margin-top: 20px;
+    height: 35px;
+    text-align: center;
+    border-radius: 25%;
+}
+#c{
+    height: 30px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 30px;
+
+}
+#r{
+    height: 30px;
+    width: 80px;
+    border-radius: 50%;
+    
+}
+#button:hover #c{
+    animation: changec 1s 15;
+    box-shadow: 5px 5px 50px red;
+}
+#button:hover #r{
+    animation: changer 1s 15;
+    box-shadow: 5px 5px 50px red;
+}
